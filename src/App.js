@@ -20,8 +20,8 @@ const App = () => {
   ])
   return (
     <div className="container">
-      <Header title="Task Tracker"/>
-      <Tasks tasks={tasks}/>
+      <Header title="Task Tracker" onChangeTask={setTasks}/>
+      <Tasks tasks={tasks} />
     </div>
   );
 }
